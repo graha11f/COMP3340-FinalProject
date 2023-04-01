@@ -47,6 +47,14 @@ button{
     color:rgb(9, 92, 20);
 }
 
+#Serv_Butt:hover{
+    color:rgb(9, 92, 20);
+}
+
+#Cont_Butt:hover{
+    color:rgb(9, 92, 20);
+}
+
 button:hover{
     background-color: rgb(105, 199, 126);
     border-color: rgb(255, 255, 255);
