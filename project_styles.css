@@ -1,8 +1,8 @@
 #Login_Header{
 
     position: fixed;
-    top: -5vh;
-    right: 1vw;
+    top: 0vh;
+    right: 3vw;
     z-index: 1;
 
 }
@@ -22,7 +22,7 @@
 }
 
 h1 {
-    font-size: 100px;
+    font-size: 10vh;
 font-family: 'Copperplate', 'Papyrus';
 color: rgb(255, 255, 255);
 margin: 0;
@@ -33,9 +33,9 @@ h2{
     vertical-align:0px;
     font-style: italics;
     font-family: 'cursive','Brush Script MT';
-    font-size: 25px;
+    font-size: 3vh;
     color: rgb(255, 255, 255);
-    margin: -30px;
+    margin: -1em;
 }
 
 body{
@@ -43,16 +43,34 @@ body{
     background-image: url("main-background.PNG");
     background-size: cover;
 }
-
-    button{
-    margin-top: 50px;
+.menu-buttons{
+    margin-top: 5vh;
+    margin-right: 4vh;
     background-color:rgb(60, 202, 93);
     color: rgb(200, 236, 215);
-    font-size: 25px;
+    font-size: 3vh;
     font-style: bold, italic;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    border-radius: 100px;
-}
+    border-radius: 2vh;
+    }
+
+    .interact-buttons{
+        margin-top: 9vh;
+        background-color:rgb(60, 202, 93);
+        color: rgb(200, 236, 215);
+        font-size: 3vh;
+        font-style: bold, italic;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        border-radius: 2vh;
+        }
+
+    .social-buttons{
+        background-color: transparent;
+        border: transparent;
+        border-radius: 100vh;
+        margin: 0;
+        padding: 0;
+    }
 
 #login{
     position: sticky;
@@ -76,16 +94,20 @@ body{
 }
 
 
-button:hover{
+.menu-buttons:hover{
     color:rgb(9, 92, 20);
     background-color: rgb(105, 199, 126);
     border-color: rgb(255, 255, 255);
 }
 
-button:active{
+.menu-buttons:active{
     background-color: rgb(9, 92, 20);
     border-color: rgb(255, 255, 255);
     border-width: 0.5px;
+}
+
+.social-buttons:hover{
+    box-shadow: 0 -1vh 2vh 1vh wheat;
 }
 
 #info{
@@ -122,13 +144,13 @@ article::-webkit-scrollbar{
 
 #left{
     width:70vw;
-    position: absolute;
+    position: relative;
     float: left;
     bottom: 1000px;
 }
 
 #left-content{
-    position: absolute;
+    position: relative;
     bottom: 0;
     left: 0;
 }
@@ -138,6 +160,9 @@ article::-webkit-scrollbar{
 }
 
 #social-links{
+    list-style-type: none;
+    margin: 0;
+    padding 0;
 }
 
 #right{
