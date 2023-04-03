@@ -10,8 +10,15 @@
         <div id = "Header-Buttons">
         <button id = "Prod_Butt" type = "button" class = menu-buttons>Products</button>
         <button id = "Serv_Butt" type= "button" class = menu-buttons >Services</button>
-        <button id = "Cont_Butt" type= "button" class = menu-buttons>Contact Us</button>
+        <button id = "Cont_Butt" type= "button" class = menu-buttons onclick=scrollToBottom()>Contact Us</button>
         </div>
-
+       
+        <!--Code for contact us button, which scrolls user to bottom of page -->
+      <script>
+        function scrollToBottom() {
+        window.scrollTo(0,document.body.scrollHeight);
+         }
+      </script>
+       
     </div>    
 
