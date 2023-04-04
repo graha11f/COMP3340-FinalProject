@@ -4,3 +4,8 @@ console.log("Script Runnable by Group 17")
 function scrollToBottom() {
   window.scrollTo(0,document.body.scrollHeight);
 }
+
+//Login button
+function login(){
+  window.location.href = "login.php";
+}
