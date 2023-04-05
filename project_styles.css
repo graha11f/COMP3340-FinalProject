@@ -25,6 +25,12 @@ em{
     overflow: auto;
     
 }
+
+#clear-link{
+    text-decoration: none;
+    color:white;
+}
+
 #Header{
     font-style: bold;
     background-color: rgb(10, 72, 19,0.75);
