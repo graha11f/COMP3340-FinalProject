@@ -7,6 +7,10 @@
 
 }
 
+em{
+    font-size: 3em;
+}
+
 #home-header{
 
     position: fixed;
@@ -16,6 +20,11 @@
 
 }
 
+#info{
+    font-size: 2em;
+    overflow: auto;
+    
+}
 #Header{
     font-style: bold;
     background-color: rgb(10, 72, 19,0.75);
