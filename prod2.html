@@ -2,14 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Prods</title>
     <!-- Stylesheet -->
     <link rel="stylesheet" href="prod2_styles.css">
     <script src="prod2_script.js" defer></script>
     
-    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
     <div class="container">
@@ -18,17 +16,35 @@
             <img src="tiger_adult_orange.jpg"  class="pic" id="tiger_pic">
 
             <form action="" class="animal_form" id="tiger_age_form">
-                <label for="tiger_adult">Adult Tiger</label>
-                <input type="radio" id="tiger_adult" name="tiger_age" value="adult" onClick="changeSrcTiger()" checked>
-                <label for="tiger_baby">Baby Tiger</label>
-                <input type="radio" id="tiger_baby" name="tiger_age" value="baby" onClick="changeSrcTiger()">
+                <div class="radio-buttons">
+                <label for="tiger_adult">
+                    <input type="radio" id="tiger_adult" name="tiger_age" value="adult" onClick="changeSrcTiger()" checked>
+                    <span class="checkmark"></span>
+                    Adult Tiger
+                </label>
+                <label for="tiger_baby">
+                    <input type="radio" id="tiger_baby" name="tiger_age" value="baby" onClick="changeSrcTiger()">
+                    <span class="checkmark"></span>
+                    Baby Tiger
+                </label>
+                
+                </div>
             </form> 
 
             <form action="" class="animal_form" id="tiger_colour_form">
-                <label for="tiger_orange">Orange Tiger</label>
-                <input type="radio" id="tiger_orange" name="tiger_colour" value="orange" onClick="changeSrcTiger()" checked>
-                <label for="tiger_white">White Tiger</label>
-                <input type="radio" id="tiger_white" name="tiger_colour" value="white" onClick="changeSrcTiger()">
+                <div class="radio-buttons">
+                <label for="tiger_orange">
+                    <input type="radio" id="tiger_orange" name="tiger_colour" value="orange" onClick="changeSrcTiger()" checked>
+                    <span class="checkmark"></span>
+                    Orange Tiger
+                </label>
+                <label for="tiger_white">
+                    <input type="radio" id="tiger_white" name="tiger_colour" value="white" onClick="changeSrcTiger()">
+                    <span class="checkmark"></span>
+                    White Tiger
+                </label>
+                
+                </div>
             </form>
                
         </div>
@@ -38,17 +54,37 @@
             <img src="giraffe_adult_orange.jpg"  class="pic" id="giraffe_pic">
 
             <form action="" class="animal_form" id="giraffe_age_form">
-                <label for="giraffe_adult">Adult Giraffe</label>
-                <input type="radio" id="giraffe_adult" name="giraffe_age" value="adult" onClick="changeSrcGiraffe()" checked>
-                <label for="giraffe_baby">Baby</label>
-                <input type="radio" id="giraffe_baby" name="giraffe_age" value="baby" onClick="changeSrcGiraffe()">
+                <div class="radio-buttons">
+                <label for="giraffe_adult">
+                    <input type="radio" id="giraffe_adult" name="giraffe_age" value="adult" onClick="changeSrcGiraffe()" checked>
+                    <span class="checkmark"></span>
+                    Adult Giraffe
+                </label>
+                
+                <label for="giraffe_baby">
+                    <input type="radio" id="giraffe_baby" name="giraffe_age" value="baby" onClick="changeSrcGiraffe()">
+                    <span class="checkmark"></span>
+                    Baby
+                </label>
+                
+                </div>
             </form> 
 
             <form action="" class="animal_form" id="giraffe_colour_form">
-                <label for="giraffe_orange">Orange Giraffe</label>
-                <input type="radio" id="giraffe_orange" name="giraffe_colour" value="orange" onClick="changeSrcGiraffe()" checked>
-                <label for="giraffe_white">White Giraffe</label>
-                <input type="radio" id="giraffe_white" name="giraffe_colour" value="white" onClick="changeSrcGiraffe()">
+                <div class="radio-buttons">
+                <label for="giraffe_orange">
+                    <input type="radio" id="giraffe_orange" name="giraffe_colour" value="orange" onClick="changeSrcGiraffe()" checked>
+                    <span class="checkmark"></span>
+                    Orange Giraffe
+                </label>
+                
+                <label for="giraffe_white">
+                    <input type="radio" id="giraffe_white" name="giraffe_colour" value="white" onClick="changeSrcGiraffe()">
+                    <span class="checkmark"></span>
+                    White Giraffe
+                </label>
+                
+                </div>
             </form>
                
         </div>
@@ -58,10 +94,20 @@
             <img src="baboon_adult.jpg"  class="pic" id="baboon_pic">
 
             <form action="" id="baboon_age_form">
-                <label for="baboon_adult">Adult Baboon</label>
-                <input type="radio" id="baboon_adult" name="baboon_age" value="adult" onClick="changeSrcBaboon()" checked>
-                <label for="baboon_baby">Baby Baboon</label>
-                <input type="radio" id="baboon_baby" name="baboon_age" value="baby" onClick="changeSrcBaboon()">
+                <div class="radio-buttons">
+                <label for="baboon_adult">
+                    <input type="radio" id="baboon_adult" name="baboon_age" value="adult" onClick="changeSrcBaboon()" checked>
+                    <span class="checkmark"></span>
+                    Adult Baboon
+                </label>
+                
+                <label for="baboon_baby">
+                    <input type="radio" id="baboon_baby" name="baboon_age" value="baby" onClick="changeSrcBaboon()">
+                    <span class="checkmark"></span>
+                    Baby Baboon
+                </label>
+                
+                </div>
             </form> 
                
         </div>
@@ -71,21 +117,49 @@
             <img src="zebra_adult_normal.jpg"  class="pic" id="zebra_pic">
 
             <form action="" id="zebra_age_form">
-                <label for="zebra_adult">Adult Zebra</label>
-                <input type="radio" id="zebra_adult" name="zebra_age" value="adult" onClick="changeSrcZebra()" checked>
-                <label for="zebra_baby">Baby Zebra</label>
-                <input type="radio" id="zebra_baby" name="zebra_age" value="baby"  onClick="changeSrcZebra()">
+                <div class="radio-buttons">
+                <label for="zebra_adult">
+                    <input type="radio" id="zebra_adult" name="zebra_age" value="adult" onClick="changeSrcZebra()" checked>
+                    <span class="checkmark"></span>
+                    Adult Zebra
+                </label>
+                
+                <label for="zebra_baby">
+                    <input type="radio" id="zebra_baby" name="zebra_age" value="baby"  onClick="changeSrcZebra()">
+                    <span class="checkmark"></span>
+                    Baby Zebra
+                </label>
+                
+                </div>
             </form> 
 
             <form action="" id="zebra_colour_form">
-                <label for="zebra_normal">White with black stripes Zebra</label>
-                <input type="radio" id="zebra_normal" name="zebra_colour" value="normal"  onClick="changeSrcZebra()" checked>
-                <label for="zebra_white">White Zebra</label>
-                <input type="radio" id="zebra_white" name="zebra_colour" value="white"  onClick="changeSrcZebra()">
-                <label for="zebra_black">Black with white stripes Zebra</label>
-                <input type="radio" id="zebra_black" name="zebra_colour" value="black"  onClick="changeSrcZebra()">
-                <label for="zebra_spot">Spotted Zebra</label>
-                <input type="radio" id="zebra_spot" name="zebra_colour" value="spot"  onClick="changeSrcZebra()">
+                <div class="radio-buttons">
+                <label for="zebra_normal">
+                    <input type="radio" id="zebra_normal" name="zebra_colour" value="normal"  onClick="changeSrcZebra()" checked>
+                    <span class="checkmark"></span>
+                    White with black stripes Zebra
+                </label>
+                
+                <label for="zebra_white">
+                    <input type="radio" id="zebra_white" name="zebra_colour" value="white"  onClick="changeSrcZebra()">
+                    <span class="checkmark"></span>
+                    White Zebra
+                </label>
+                
+                <label for="zebra_black">
+                    <input type="radio" id="zebra_black" name="zebra_colour" value="black"  onClick="changeSrcZebra()">
+                    <span class="checkmark"></span>
+                    Black with white stripes Zebra
+                </label>
+                
+                <label for="zebra_spot">
+                    <input type="radio" id="zebra_spot" name="zebra_colour" value="spot"  onClick="changeSrcZebra()">
+                    <span class="checkmark"></span>
+                    Spotted Zebra
+                </label>
+                
+                </div>
             </form>
                
         </div>
@@ -94,16 +168,36 @@
             <img src="lion_adult_male.jpg" class="pic" id="lion_pic">
 
             <form action="" id="lion_age_form">
-                <label for="lion_adult">Adult Lion</label>
-                <input type="radio" id="lion_adult" name="lion_age" value="adult"  onClick="changeSrcLion()" checked>
-                <label for="lion_baby">Lion Cub</label>
-                <input type="radio" id="lion_baby" name="lion_age" value="baby"  onClick="changeSrcLion()">
+                <div class="radio-buttons">
+                <label for="lion_adult">
+                    <input type="radio" id="lion_adult" name="lion_age" value="adult"  onClick="changeSrcLion()" checked>
+                    <span class="checkmark"></span>
+                    Adult Lion
+                </label>
+                
+                <label for="lion_baby">
+                    <input type="radio" id="lion_baby" name="lion_age" value="baby"  onClick="changeSrcLion()">
+                    <span class="checkmark"></span>
+                    Lion Cub
+                </label>
+                
+                </div>
             </form>
             <form action="" id="lion_sex_form">
-                <label for="lion_male">Male</label>
-                <input type="radio" id="lion_male" name="lion_sex" value="male"  onClick="changeSrcLion()" checked>
-                <label for="lion_female">Female</label>
-                <input type="radio" id="lion_female" name="lion_sex" value="female"  onClick="changeSrcLion()">
+                <div class="radio-buttons">
+                <label for="lion_male">
+                    <input type="radio" id="lion_male" name="lion_sex" value="male"  onClick="changeSrcLion()" checked>
+                    <span class="checkmark"></span>
+                    Male
+                </label>
+                
+                <label for="lion_female">
+                    <input type="radio" id="lion_female" name="lion_sex" value="female"  onClick="changeSrcLion()">
+                    <span class="checkmark"></span>
+                    Female
+                </label>
+                
+                </div>
             </form>
         </div>
 
@@ -111,10 +205,20 @@
             <img src="hippo_adult.jpg" class="pic" id="hippo_pic">
 
             <form action="" id="hippo_age_form">
-                <label for="hippo_adult">Adult Hippopotamus</label>
-                <input type="radio" id="hippo_adult" name="hippo_age" value="adult" onClick="changeSrcHippo()" checked>
-                <label for="hippo_baby">Baby Hippopotamus</label>
-                <input type="radio" id="hippo_baby" name="hippo_age" value="baby" onClick="changeSrcHippo()">
+                <div class="radio-buttons">
+                <label for="hippo_adult">
+                    <input type="radio" id="hippo_adult" name="hippo_age" value="adult" onClick="changeSrcHippo()" checked>
+                    <span class="checkmark"></span>
+                    Adult Hippopotamus
+                </label>
+                
+                <label for="hippo_baby">
+                    <input type="radio" id="hippo_baby" name="hippo_age" value="baby" onClick="changeSrcHippo()">
+                    <span class="checkmark"></span>
+                    Baby Hippopotamus
+                </label>
+                
+                </div>
             </form>
         </div>
 

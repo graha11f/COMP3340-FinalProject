@@ -49,12 +49,12 @@ function changeSrcBaboon(){
 }
 function changeSrcZebra(){
     if(document.getElementById("zebra_adult").checked){
-        /* disable spotted option */
-        document.getElementById("zebra_spot").disabled = true;
         /* enable all other options */
         document.getElementById("zebra_normal").disabled = false;
         document.getElementById("zebra_white").disabled = false;
         document.getElementById("zebra_black").disabled = false;
+        /* disable spotted option */
+        document.getElementById("zebra_spot").disabled = true;
 
 
         if(document.getElementById("zebra_normal").checked){
@@ -69,12 +69,13 @@ function changeSrcZebra(){
         
     }
     else if(document.getElementById("zebra_baby").checked){ 
-        /* disable black & white options */
-        document.getElementById("zebra_black").disabled = true;
-        document.getElementById("zebra_white").disabled = true;
-        /* enable all other options */
+        /* enable normal & spot options */
         document.getElementById("zebra_normal").disabled = false;
         document.getElementById("zebra_spot").disabled = false;
+        /* disable black & white options */
+        document.getElementById("zebra_white").disabled = true;
+        document.getElementById("zebra_black").disabled = true;
+        
 
         if(document.getElementById("zebra_normal").checked){
             document.getElementById("zebra_pic").src = "zebra_baby_normal.jpg";
