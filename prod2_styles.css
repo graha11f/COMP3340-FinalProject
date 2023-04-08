@@ -1,5 +1,23 @@
 .pic{
     width: 100px;
     height: 100px;
-    
+
 }
+
+/*default selections
+#tiger_adult #tiger_orange 
+
+#giraffe_adult #giraffe_orange
+
+#baboon_adult
+
+#zebra_adult #zebra_normal
+
+#lion_adult #lion_male
+
+#hippo_adult
+
+input#zebra_adult:checked{
+
+}
+pointer-evets: none;*/
