@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prods</title>
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="prod2_styles.css">
+    <script src="prod2_script.js" defer></script>
+    
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="container">
+        <div class="single-product">
+
+            <img src="tiger_adult_orange.jpg"  class="pic" id="tiger_pic">
+
+            <form action="" id="tiger_age_form">
+            <input type="radio" id="tiger_adult" name="tiger_age" value="adult" onClick="changeSrc()" checked>Adult<br>
+            <input type="radio" id="tiger_baby" name="tiger_age" value="baby" onClick="changeSrc()">Baby<br>
+            </form> 
+
+            <form action="" id="tiger_colour_form">
+            <input type="radio" id="tiger_orange" name="tiger_colour" value="orange" onClick="changeSrc()" checked>orange<br>
+            <input type="radio" id="tiger_white" name="tiger_colour" value="white" onClick="changeSrc()">white<br>
+            </form>
+               
+        </div>
+
+        <div class="single-product">
+            
+            <img src="giraffe_adult_orange.jpg"  class="pic" id="giraffe_pic">
+
+            <form action="" id="giraffe_age_form">
+            <input type="radio" id="giraffe_adult" name="giraffe_age" value="adult" onClick="changeSrc()" checked>Adult<br>
+            <input type="radio" id="giraffe_baby" name="giraffe_age" value="baby" onClick="changeSrc()">Baby<br>
+            </form> 
+
+            <form action="" id="giraffe_colour_form">
+            <input type="radio" id="giraffe_orange" name="giraffe_colour" value="orange" onClick="changeSrc()" checked>orange<br>
+            <input type="radio" id="giraffe_white" name="giraffe_colour" value="white" onClick="changeSrc()">white<br>
+            </form>
+               
+        </div>
+
+        <div class="single-product">
+            
+            <img src="baboon_adult.jpg"  class="pic" id="baboon_pic">
+
+            <form action="" id="baboon_age_form">
+            <input type="radio" id="baboon_adult" name="baboon_age" value="adult" onClick="changeSrc()" checked>Adult<br>
+            <input type="radio" id="baboon_baby" name="baboon_age" value="baby" onClick="changeSrc()">Baby<br>
+            </form> 
+               
+        </div>
+
+        <div class="single-product">
+            
+            <img src="zebra_adult_normal.jpg"  class="pic" id="zebra_pic">
+
+            <form action="" id="zebra_age_form">
+            <input type="radio" id="zebra_adult" name="zebra_age" value="adult" onClick="changeSrc()" checked>Adult<br>
+            <input type="radio" id="zebra_baby" name="zebra_age" value="baby" onClick="changeSrc()">Baby<br>
+            </form> 
+
+            <form action="" id="zebra_colour_form">
+            <input type="radio" id="zebra_normal" name="zebra_colour" value="normal" onClick="changeSrc()" checked>White with black stripes<br>
+            <input type="radio" id="zebra_white" name="giraffe_colour" value="white" onClick="changeSrc()">white<br>
+            <input type="radio" id="zebra_black" name="zebra_colour" value="normal" onClick="changeSrc()" checked>black with white stripes<br>
+            
+            </form>
+               
+        </div>
+
+    </div>
+
+    <!--script-->
+    <script src="script.js"></script>
+</body>
+</html>
